@@ -26,8 +26,8 @@ ol {
 .justify-center {
   justify-content: center;
 }
-.justify-end{
-    justify-content: end;
+.justify-end {
+  justify-content: end;
 }
 .justify-between {
   justify-content: space-between;
@@ -43,6 +43,9 @@ ol {
   font-size: 20px;
   font-weight: 600;
   border-radius: 5px;
+}
+section {
+  margin-top: 100px;
 }
 /* header part styles here */
 .header {
@@ -68,4 +71,33 @@ ol {
   line-height: 26px;
   color: #444343;
   margin: 30px 0;
+}
+/* main part styles here */
+/* my-failures section styles here */
+.my-failures-content {
+  padding: 0 30px;
+}
+.my-failures-content h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-right: 63px;
+}
+.my-failures-content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin: 30px 0;
+}
+.my-failures-content ul li {
+  margin: 10px 0;
+}
+.my-failures-content ul li i {
+  color: #16d887;
+}
+.my-failures-content ul li span {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
 }
