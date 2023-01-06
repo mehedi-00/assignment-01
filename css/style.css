@@ -101,3 +101,31 @@ section {
   line-height: 26px;
   color: #444343;
 }
+/* my-plans section styles here */
+.my-plans-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 40px;
+}
+.my-plans .row{
+    gap: 25px;
+}
+.plans-list {
+  text-align: center;
+}
+.plans-list h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #151414;
+  margin: 20px 0;
+}
+.plans-list p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #737272;
+}
