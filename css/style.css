@@ -147,7 +147,6 @@ section {
   background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
   z-index: -1;
   border-radius: 8px;
-
 }
 .allways-keep h2 {
   font-weight: 700;
@@ -156,9 +155,65 @@ section {
   color: #ffffff;
   z-index: 5;
 }
-.allways-keep .btn-primary{
+.allways-keep .btn-primary {
+  background-color: #fff;
+  color: #f15b22;
+  padding: 15px 20px;
+  margin-top: 30px;
+}
+/* footer part styles here */
+.footer {
+  background-color: #151414;
+  margin-top: 100px;
+  padding: 100px 0;
+}
+.future , .subscribe {
+  width: 50%;
+}
+.future h3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+}
+.future-email, .future-number,.future-description {
+  font-size: 14px;
+  line-height: 26px;
+  color: #fff;
+  margin: 20px 0;
+  padding-right: 120px;
+}
+.future-socile-media{
+    gap: 20px;
+}
+.subscribe{
+    padding-left: 50px;
+}
+.subscribe h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #ffffff;
+  }
+  .subscribe-form{
+    margin-top: 20px;
+  }
+  .subscribe-form .email{
+    background-color:transparent;
+    height: 60px;
+    width: 70%;
+    padding: 30px;
+    border: 1px solid #ffffff57;
+    border-radius: 8px;
+}
+  .subscribe-form .email::placeholder{
+    color: #ffffff57;
+  }
+  .subscribe-form .btn-primary{
+    display: block;
+    margin-top: 20px;
     background-color: #fff;
     color: #f15b22;
-    padding: 15px 20px;
-    margin-top: 30px;
-}
+    font-size: 16px;
+    font-weight: 600;
+  }
