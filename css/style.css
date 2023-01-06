@@ -110,8 +110,8 @@ section {
   color: #151414;
   margin-bottom: 40px;
 }
-.my-plans .row{
-    gap: 25px;
+.my-plans .row {
+  gap: 25px;
 }
 .plans-list {
   text-align: center;
@@ -128,4 +128,37 @@ section {
   font-size: 25px;
   line-height: 29px;
   color: #737272;
+}
+/* allways-keeps section styles here */
+.allways-keep {
+  padding: 60px 60px 60px 60px;
+  background-image: url("../images/watch.png");
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+}
+.allways-keep::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  z-index: -1;
+  border-radius: 8px;
+
+}
+.allways-keep h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  z-index: 5;
+}
+.allways-keep .btn-primary{
+    background-color: #fff;
+    color: #f15b22;
+    padding: 15px 20px;
+    margin-top: 30px;
 }
