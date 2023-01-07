@@ -108,7 +108,7 @@ section {
   font-size: 40px;
   line-height: 47px;
   color: #151414;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .my-plans .row {
   gap: 25px;
@@ -125,10 +125,52 @@ section {
 }
 .plans-list p {
   font-weight: 500;
-  font-size: 25px;
-  line-height: 29px;
+  font-size: 22px;
   color: #737272;
 }
+/* about-me section styles here */
+.about-me {
+  background-color: #755b5ba6;
+  padding-top: 50px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
+  padding-bottom: 12rem;
+}
+.about-image{
+  width: 50%;
+
+}
+
+.about-content{
+  width: 50%;
+  text-align: right;
+}
+.about-content h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.about-content h2 span{
+  color: #f15b22;
+  text-align: right;
+}
+.about-content h4{
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 47px;
+}
+.about-content p{
+  color: #f8f8f8;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
 /* allways-keeps section styles here */
 .allways-keep {
   padding: 60px 60px 60px 60px;
@@ -167,7 +209,8 @@ section {
   margin-top: 100px;
   padding: 100px 0;
 }
-.future , .subscribe {
+.future,
+.subscribe {
   width: 50%;
 }
 .future h3 {
@@ -176,44 +219,50 @@ section {
   line-height: 53px;
   color: #f8f8f8;
 }
-.future-email, .future-number,.future-description {
+.future-email,
+.future-number,
+.future-description {
   font-size: 14px;
   line-height: 26px;
   color: #fff;
   margin: 20px 0;
   padding-right: 120px;
 }
-.future-socile-media{
-    gap: 20px;
+.future-socile-media {
+  gap: 20px;
 }
-.subscribe{
-    padding-left: 50px;
+.subscribe {
+  padding-left: 50px;
 }
 .subscribe h3 {
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 29px;
-    color: #ffffff;
-  }
-  .subscribe-form{
-    margin-top: 20px;
-  }
-  .subscribe-form .email{
-    background-color:transparent;
-    height: 60px;
-    width: 70%;
-    padding: 30px;
-    border: 1px solid #ffffff57;
-    border-radius: 8px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
 }
-  .subscribe-form .email::placeholder{
-    color: #ffffff57;
-  }
-  .subscribe-form .btn-primary{
-    display: block;
-    margin-top: 20px;
-    background-color: #fff;
-    color: #f15b22;
-    font-size: 16px;
-    font-weight: 600;
-  }
+.subscribe-form {
+  margin-top: 20px;
+}
+.subscribe-form .email {
+  background-color: transparent;
+  height: 60px;
+  width: 70%;
+  padding: 30px;
+  border: 1px solid #ffffff57;
+  border-radius: 8px;
+  color: #f8f8f8;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+.subscribe-form .email::placeholder {
+  color: #ffffff57;
+}
+.subscribe-form .btn-primary {
+  display: block;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #f15b22;
+  font-size: 16px;
+  font-weight: 600;
+}
